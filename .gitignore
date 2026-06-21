@@ -1,2 +1,8 @@
 # Игнорировать состояние браузера для автотестов
 browser-state.json
+
+# Python кеш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
