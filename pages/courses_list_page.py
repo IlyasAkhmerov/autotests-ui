@@ -57,8 +57,8 @@ class CoursesListPage(BasePage):
             min_score: str,
             estimated_time: str
     ):
-        expect(self.courses_title.nth(index)).to_be_visible()
-        expect(self.courses_title.nth(index)).to_have_text(title)
+        expect(self.course_title.nth(index)).to_be_visible()
+        expect(self.course_title.nth(index)).to_have_text(title)
 
         expect(self.course_image.nth(index)).to_be_visible()
 
