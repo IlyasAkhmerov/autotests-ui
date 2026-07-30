@@ -12,9 +12,6 @@ class CoursesListToolbarViewComponent(BaseComponent):
         self.title = page.get_by_test_id('courses-list-toolbar-title-text')
         self.create_course_button = page.get_by_test_id('courses-list-toolbar-create-course-button')
 
-        self.title = page.get_by_test_id('courses-list-toolbar-title-text')
-        self.create_course_button = page.get_by_test_id('courses-list-toolbar-create-course-button')
-
     def check_visible(self):
         expect(self.title).to_be_visible()
         expect(self.title).to_have_text('Courses')
