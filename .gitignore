@@ -1,8 +1,21 @@
 # Игнорировать состояние браузера для автотестов
 browser-state.json
 
+# Allure results
+allure-results/
+*.json
+*.xml
+*.txt
+
 # Python кеш
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+venv/
+env/
+.env
