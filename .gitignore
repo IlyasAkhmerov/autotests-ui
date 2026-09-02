@@ -7,6 +7,10 @@ allure-results/
 *.xml
 *.txt
 
+#Trace Viewer results
+tracing
+*.zip
+
 # Python кеш
 __pycache__/
 *.pyc
