@@ -11,6 +11,10 @@ allure-results/
 tracing
 *.zip
 
+#Videos
+videos
+*.webm
+
 # Python кеш
 __pycache__/
 *.pyc
@@ -23,3 +27,4 @@ htmlcov/
 venv/
 env/
 .env
+pyvenv.cfg
