@@ -1,30 +1,16 @@
-# Игнорировать состояние браузера для автотестов
-browser-state.json
+# pycharm
+.idea
 
-# Allure results
-allure-results/
+# python
+.venv
+__pycache__
+
+# allure
+allure-results
+allure-report
+
+# testing artifacts
+*.html
 *.json
-*.xml
-*.txt
-
-#Trace Viewer results
-tracing
-*.zip
-
-#Videos
 videos
-*.webm
-
-# Python кеш
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-venv/
-env/
-.env
-pyvenv.cfg
+tracing
