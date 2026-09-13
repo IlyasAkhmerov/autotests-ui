@@ -2,6 +2,7 @@ import allure
 from playwright.sync_api import Page, Locator, expect
 from ui_coverage_tool import ActionType, SelectorType
 
+
 from elements.ui_coverage import tracker
 from tools.logger import get_logger
 
