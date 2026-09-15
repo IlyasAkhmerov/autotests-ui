@@ -20,7 +20,7 @@ class Button(BaseElement):
             logger.info(step)
             expect(locator).to_be_enabled()
 
-        self.track_coverage(ActionType.ENABLED, nth, **kwargs)
+            self.track_coverage(ActionType.ENABLED, nth, **kwargs)
 
 
     def check_disabled(self, nth: int = 0, **kwargs):
@@ -30,4 +30,4 @@ class Button(BaseElement):
             logger.info(step)
             expect(locator).to_be_disabled()
 
-        self.track_coverage(ActionType.DISABLED, nth, **kwargs)
+            self.track_coverage(ActionType.DISABLED, nth, **kwargs)
