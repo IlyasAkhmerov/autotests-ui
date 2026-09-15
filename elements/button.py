@@ -14,7 +14,7 @@ class Button(BaseElement):
         return "button"
 
     def get_raw_locator(self, nth: int = 0, **kwargs) -> str:
-        return f'{super().get_raw_locator(**kwargs)}'
+        return f'{super().get_raw_locator(**kwargs)}//button'
 
     def check_enabled(self, nth: int = 0, **kwargs):
         step = f'Checking that {self.type_of} "{self.name}" is enabled'
