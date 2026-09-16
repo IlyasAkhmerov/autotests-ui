@@ -19,7 +19,6 @@ class Button(BaseElement):
             locator = self.get_locator(nth, **kwargs)
             logger.info(step)
             expect(locator).to_be_enabled()
-
             self.track_coverage(ActionType.ENABLED, nth, **kwargs)
 
 

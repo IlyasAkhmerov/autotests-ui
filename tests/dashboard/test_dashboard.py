@@ -4,10 +4,10 @@ from allure_commons.types import Severity
 
 from config import settings
 from pages.dashboard.dashboard_page import DashboardPage
-from tools.allure.epics import AllureEpic
-from tools.allure.features import AllureFeature
-from tools.allure.stories import AllureStory
-from tools.allure.tags import AllureTag
+from tools.allure_utils.epics import AllureEpic
+from tools.allure_utils.features import AllureFeature
+from tools.allure_utils.stories import AllureStory
+from tools.allure_utils.tags import AllureTag
 from tools.routes import AppRoute
 
 

@@ -23,6 +23,7 @@ class CreateCourseExercisesToolbarViewComponent(BaseComponent):
         self.exercises_title.check_have_text('Exercises')
 
         self.create_exercise_button.check_visible()
+        self.create_exercise_button.check_enabled()
 
     def click_create_exercise_button(self):
         self.create_exercise_button.click()

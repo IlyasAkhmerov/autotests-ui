@@ -1,6 +1,6 @@
 import pytest
 
-from tools.allure.environment import create_allure_environment_file
+from tools.allure_utils.environment import create_allure_environment_file
 
 
 @pytest.fixture(scope='session', autouse=True)

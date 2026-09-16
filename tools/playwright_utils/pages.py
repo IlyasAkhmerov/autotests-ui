@@ -2,7 +2,7 @@ import allure
 from playwright.sync_api import Playwright, Page
 
 from config import settings, Browser
-from tools.playwright.mocks import mock_static_resources
+from tools.playwright_utils.mocks import mock_static_resources
 
 
 def initialize_playwright_page(
